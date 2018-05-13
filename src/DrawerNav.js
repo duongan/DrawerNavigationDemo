@@ -11,6 +11,13 @@ const DrawerNav = DrawerNavigator(
                 drawerLabel: "Drawer Item 1",
                 drawerIcon: ({ tintColor }) => <Icon name="rocket" size={24} />
             },
+        },
+        DrawerItem2: {
+            screen: TabNav,
+            navigationOptions: {
+                drawerLabel: "Drawer Item 2",
+                drawerIcon: ({ tintColor }) => <Icon name="book" size={24} />
+            },
         }
     }
 );
